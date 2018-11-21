@@ -5,5 +5,4 @@ package com.company;
 public interface QuestionGenerator {
     List<Question> generateQuestions();
 
-
 }

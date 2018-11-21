@@ -25,7 +25,7 @@ public class Main extends JFrame implements ActionListener {
 
 
     public Main(){
-        setQuestionGenerator(new SimpleQuestionGenerator());
+        setQuestionGenerator(new QuestionFileGenerator());
         questionList = questionGenerator.generateQuestions();
         setSize(500,500);// ustawia wielkość okna
         // metoda setSize() znajduje się w JFRAME
@@ -97,14 +97,16 @@ public class Main extends JFrame implements ActionListener {
                 System.out.println("Liczba punktow: "+ score);
             }
         }
+
         if (questionList.size() > currentQuestion+1){
             currentQuestion++;
             label.setText(questionList.get(currentQuestion).getContent());
         } else {
-            button.setVisible(false);
-            setLayout(new GridLayout());
-            label.setText("Koncowy wynik: " + score +"/"+questionList.size());
-            add(label);
+//            button.setVisible(false);
+//            setLayout(new GridLayout());
+//            label.setText("Koncowy wynik: " + score +"/"+questionList.size());
+//            add(label);
+            JOptionPane.showMessageDialog(this,"Koncowy wynik: " + score +"/"+questionList.size());
         }
     }
 }
