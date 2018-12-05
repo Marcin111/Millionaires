@@ -2,7 +2,6 @@ package com.company;
 
 public class Question {
 
-    //nazwa pytania
     private String content;
     private boolean correct;
 
