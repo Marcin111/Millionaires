@@ -3,3 +3,10 @@ Czy Polska leży w Azji? NIE
 Czy 2+9=11? TAK
 Czy 2 do 10 to 1024? TAK
 Czy String to klasa? TAK
+Czy int ma rozmiar 4 bajtów? TAK
+Czy w Javie użytkownik może korzystać z wielodziedziczenia? NIE
+Czy mapa to kolekcja? NIE
+Czy JVM jest napisany w większości w C++? TAK
+Czy git jest git? TAK
+Czy boolean i Boolean to to samo? NIE
+Czy sout to System.out.println()? TAK
