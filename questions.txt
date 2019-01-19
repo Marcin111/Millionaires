@@ -10,3 +10,8 @@ Czy JVM jest napisany w większości w C++? TAK
 Czy git jest git? TAK
 Czy boolean i Boolean to to samo? NIE
 Czy sout to System.out.println()? TAK
+Czy 5*55 to 1000? NIE
+Czy stolica Tajlandii to Bangkok? TAK
+Czy 8*6 to 48? TAK
+Czy Wisła płynie z południa na północ? TAK
+Czy to ostatnie pytanie? TAK
